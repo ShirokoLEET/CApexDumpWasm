@@ -1,0 +1,14 @@
+include:
+  - "_*"
+
+plugins:
+  - jekyll-redirect-from
+
+# Custom headers for GitHub Pages
+include_headers: true
+
+headers:
+  "*.wasm":
+    - "Content-Type: application/wasm"
+    - "Cross-Origin-Embedder-Policy: require-corp"
+    - "Cross-Origin-Opener-Policy: same-origin"

@@ -2,6 +2,11 @@
 
 This is a web-based offset updater for **Apex Legends**, built using **Vue 3** and **WebAssembly (WASM)**.
 
+## 🌐 Live Demo
+
+The application is automatically deployed to GitHub Pages:
+**[https://KiloxGo.github.io/CApexDumpWasm/](https://KiloxGo.github.io/CApexDumpWasm/)**
+
 ## ✨ Features
 
 - 📤 Upload a `dump` file to extract and update offsets.
@@ -13,6 +18,8 @@ This is a web-based offset updater for **Apex Legends**, built using **Vue 3** a
 
 - [Vue 3](https://vuejs.org/)
 - [WebAssembly (WASM)](https://webassembly.org/)
+- [Vite](https://vitejs.dev/)
+- [Element Plus](https://element-plus.org/)
 
 ## 🚀 Usage
 
@@ -20,6 +27,34 @@ This is a web-based offset updater for **Apex Legends**, built using **Vue 3** a
 2. Upload a `dump` file generated from Apex Legends.
 3. View and search parsed offset information.
 4. Export the result to a `.json` file.
+
+## 🔧 Development
+
+### Local Development
+
+```bash
+cd WASMLoader
+npm install
+npm run dev
+```
+
+### Building for Production
+
+```bash
+cd WASMLoader
+npm run build
+```
+
+### Preview Production Build
+
+```bash
+cd WASMLoader
+npm run preview
+```
+
+## 🚀 Deployment
+
+This project is configured for automatic deployment to GitHub Pages. See [DEPLOY.md](DEPLOY.md) for detailed deployment instructions.
 
 ## 📁 Notes
 
