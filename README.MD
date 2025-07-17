@@ -5,7 +5,7 @@ This is a web-based offset updater for **Apex Legends**, built using **Vue 3** a
 ## 🌐 Live Demo
 
 The application is automatically deployed to GitHub Pages:
-**[https://KiloxGo.github.io/CApexDumpWasm/](https://KiloxGo.github.io/CApexDumpWasm/)**
+**[https://shirokoLEET.github.io/CApexDumpWasm/](https://KiloxGo.github.io/CApexDumpWasm/)**
 
 ## ✨ Features
 
